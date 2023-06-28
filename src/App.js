@@ -18,7 +18,7 @@ function App() {
         <Router basename="/DecorationReactJs">
           <NavbarDiscount />
           <Routes>
-            <Route path="/" element={<Mainlanding />} />
+            <Route path="/DecorationReactJs" element={<Mainlanding />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/shop" element={<Allshoppingpage />} />
             <Route path="/products/:id" element={<ProductDetails />} />
