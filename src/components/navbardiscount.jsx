@@ -35,7 +35,7 @@ export function NavbarDiscount() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container d-flex justify-content-between align-items-center">
           <div>
-            <Link to="/DecorationReactJs"><h1 className="navbar-brand" href="/"><img src={logo} alt="/" /></h1></Link>
+            <Link to={"/DecorationReactJs"}><h1 className="navbar-brand" href="/DecorationReactJs"><img src={logo} alt="/DecorationReactJs"/></h1></Link>
           </div>
           <button
   className="navbar-toggler"
