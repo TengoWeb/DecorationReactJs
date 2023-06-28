@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import { NavbarDiscount } from './components/navbardiscount';
 import { Mainlanding } from './pages/mainlanding';
 import { Footer } from './components/footer/footer';
@@ -15,16 +15,16 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <Router basename="/DecorationReactJs">
+        <BrowserRouter basename="/DecorationReactJs">
           <NavbarDiscount />
           <Routes>
-            <Route path="/DecorationReactJs" element={<Mainlanding />} />
+            <Route exact path="/DecorationReactJs" element={<Mainlanding />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/shop" element={<Allshoppingpage />} />
             <Route path="/products/:id" element={<ProductDetails />} />
           </Routes>
           <Footer />
-        </Router>
+        </BrowserRouter>
       </ShopContextProvider>
     </div>
   );
