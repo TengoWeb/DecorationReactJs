@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+a { 
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom { 
+    background-color: #01370C;
+}
+
+.footer-text { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
+.footer-bottom-content { 
+    display: flex;
+}
+@media (max-width:768px) { 
+    .footer-ln1 { 
+        display: flex;
+        align-items:center ;
+        flex-direction: column;
+
+    }
+    .footer-bottom-content { 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .soc-icon-holder{ 
+        justify-content: center;
+    }
+}

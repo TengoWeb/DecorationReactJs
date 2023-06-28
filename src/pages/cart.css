@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+
+.cart-title h1 { 
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    z-index:0;
+    margin-top: 75px;
+}
+
+.cartbutton1 { 
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    background: transparent;
+    outline: none;
+    border-right: none;
+    
+   
+}
+.cartbutton2 { 
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;;
+    background: transparent;
+    outline: none;
+    border-left: none;
+}
+
+.screen { 
+    border-left:none;
+    border-right: none;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    text-align: center;
+}
+.cartlittletitles { 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    color: #343434;
+}
+
+.productNametitle p{
+    margin-left: 24px; 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #343434;
+}
+.remove { 
+    border-bottom: 1px solid #343434;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.prod-price { 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #343434;
+}
+
+.total { 
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #343434;
+}
+
+.orderbutton { 
+    font-family: 'Open Sans';
+    background-color: #3B823E;
+    box-shadow: 0px 8px 23px 0px #00000021;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    border-radius: 8px;
+}
+
+.lastdetails-button h1 { 
+    color: #343434;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    margin-top: 56px;
+    margin-bottom: 40px;
+}
+.form-check p{ 
+    font-family: 'Open Sans';
+    color: #343434;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: justify;
+}
+.billing-title { 
+    color: #343434;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+}
+.cart-mobile { 
+    display: none;
+}
+@media (max-width:768px) { 
+    .cart-dekstop {
+        display: none;
+    }
+    .cart-mobile { 
+        display: flex;
+    }
+    .mobile-cart-title-delete {
+        display: none;
+    }
+    .checkoutbox { 
+  
+    }
+}

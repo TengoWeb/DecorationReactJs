@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+.navigationHOLDEr {
+    z-index: 1000;
+}
+.discount { 
+    background-color: #01370C;
+    
+}
+.navbar p { 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+}
+.cartlogin { 
+    gap: 50px;
+}
+.nav-item a{ 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.navbar-nav { 
+    gap:56px
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    color: #3B823E    ;
+  }
+.navigationHOLDEr { 
+    position: sticky;
+    top: 0;
+}

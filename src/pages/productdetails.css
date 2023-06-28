@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+
+.discrtiption { 
+    color: rgba(52, 52, 52, 0.60);
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.discount-details { 
+    color: rgba(209, 31, 31, 0.50);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-decoration-line:line-through;
+    margin-left: 10px;
+}
+.remove-from-cart {
+    background-color: red;
+    /* Add any other styles as needed */
+  }
+
+.disabled-button {
+    background-color: #ccc;
+    /* Add any other styles as needed */
+  }
+
+  .pincode { 
+    color: #34343499;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+  }
+  .checkbutton { 
+    color: #3B823E;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin-left: 16px;
+    cursor: pointer;
+  }
+  .details-last-text { 
+    color: rgba(52, 52, 52, 0.60);
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.productdetailsbanner { 
+    background-image: url(../assetsProduct//Background\ \(1\).png);
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-color: rgb(76,101,77)
+
+}

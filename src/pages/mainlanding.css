@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+
+
+
+.banneholder img { 
+    object-fit: cover;
+}
+
+.firstsectionimgholder h6{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 20%;
+    text-align: center;
+    color: #343434;
+
+}
+.mainladningholder { 
+    background-color: aliceblue;
+}
+.circleholder { 
+    margin-top: 76px;
+}
+
+.container1 { 
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+
+.card-1 {
+    border: 20px solid rgb(255, 252, 252);
+    border-radius: 8px  ;
+    box-shadow: 0px 8px 23px 0px #506B5221;
+
+}
+
+.cardbutton{
+     background-color: #3B823E;
+     border-radius: 8px;
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 700;
+     line-height: 27px;
+     text-align: center;
+     color: #fff;
+     outline: none;
+     border: none;
+     padding: 10px;
+}
+
+.buybutton { 
+    background-color:#3B823E;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+
+    
+}
+.productname { 
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+.productprice { 
+    font-family: 'Open Sans', sans-serif;
+    color: #343434;
+    font-weight: 400;
+    font-size: 20px;   
+}
+.tittle-product-cards {
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    z-index:0;
+}
+.tittle-product-cards::after { 
+    content: "";
+    width: 60%; /* Adjust the width as desired */
+    height: 2px; /* Set the height of the line */
+    background-color: #343434; /* Adjust the color of the line */
+    position: absolute;
+    bottom: -15px; /* Adjust the distance of the line from the title */
+    left: 20%; /* Adjust the position of the line horizontally */
+    z-index: 0;
+}
+
+.best-selling-title {
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    z-index:0;
+}
+
+.best-selling-title::after { 
+    content: "";
+    width:80%; /* Adjust the width as desired */
+    height: 2px; /* Set the height of the line */
+    background-color: #343434; /* Adjust the color of the line */
+    position: absolute;
+    bottom: -15px; /* Adjust the distance of the line from the title */
+    left: 9%; /* Adjust the position of the line horizontally */
+    z-index: 0;
+}
+
+.best-selling-title-blog { 
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    text-align: center;
+    z-index:0;
+}
+
+.best-selling-title-blog::after{
+    content: "";
+    width:160%; /* Adjust the width as desired */
+    height: 2px; /* Set the height of the line */
+    background-color: #343434; /* Adjust the color of the line */
+    position: absolute;
+    bottom: -15px; /* Adjust the distance of the line from the title */
+    left: -30%; /* Adjust the position of the line horizontally */
+    z-index: 0;
+}
+.blog-background-image{ 
+    background-image: linear-gradient(rgba(55, 97, 73, 0.3), rgba(21, 54, 35, 0.3)), url(../assets//blogitem2.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    width: 99%;
+    
+}
+.blog-background-image2 { 
+    background-image: linear-gradient(rgba(55, 97, 73, 0.3), rgba(21, 54, 35, 0.3)), url(../assets//blogimage1.jpeg);
+    width: 99%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.blog-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    font-style: normal;
+    color: #fff;
+}
+.blog-button { 
+    background-color:#3B823E;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 18px;
+    margin-top: 28px;
+    width: 100%;
+}
+
+.landscape-title { 
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    z-index:0;
+    margin-bottom: 20px;
+}
+.landscape-title::after { 
+    content: "";
+    width:20%; /* Adjust the width as desired */
+    height: 2px; /* Set the height of the line */
+    background-color: #343434; /* Adjust the color of the line */
+    position: absolute;
+    bottom: -5px; /* Adjust the distance of the line from the title */
+    left: 0; /* Adjust the position of the line horizontally */
+    z-index: 0;
+    
+}
+.ladnscape-text { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #343434;
+    font-size: 22px;
+    line-height: 32px;
+    flex: start;
+}
+.gardenbutton { 
+    background-color:#3B823E;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    padding: 18px;
+    width: 40%;
+    margin-top: 18px;
+}
+
+.section-celebs-title h1{
+    position: relative; 
+    font-family: 'Unna', serif;
+    color: #343434;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+    z-index:0;
+    margin-bottom: 30px;
+}
+.section-celebs-title h1::after { 
+    content: "";
+    width:50%; /* Adjust the width as desired */
+    height: 2px; /* Set the height of the line */
+    background-color: #343434; /* Adjust the color of the line */
+    position: absolute;
+    bottom: -15px; /* Adjust the distance of the line from the title */
+    left: 25%; /* Adjust the position of the line horizontally */
+    z-index: 0;
+}
+
+.saleprice { 
+    color:#D11F1F;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+.blurred-image {
+    filter: blur(5px); /* Adjust the blur radius as desired */
+  }
+  
+  .product-image {
+    transition: filter 0.3s ease-in-out;
+  }
+  
+  .blurred-image {
+    filter: blur(5px); /* Adjust the blur radius as desired */
+  } 
+.card-hover-button {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    border: none;
+    background-color:  rgba(17, 71, 35, 0.8);
+    outline: none;
+    cursor: pointer;
+    font-style: 12px;
+    border-radius: 5px ;
+    padding: 5px;
+}
+  
+
+.circleitems{
+    transition: 0.2s;
+    cursor: pointer;
+}
+.circleitems:hover { 
+    scale: 1.1;
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown-container .dropdown-toggle {
+    background-color: #fff;
+    border: none;
+    color: #000;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .dropdown-container .dropdown-icon {
+    margin-left: 5px;
+  }
+  
+  .dropdown-container .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 0;
+    width: 150px;
+  }
+  
+  .dropdown-container .dropdown-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dropdown-container .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
