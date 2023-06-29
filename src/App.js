@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <BrowserRouter>
+        <Router>
           <NavbarDiscount />
           <Routes>
             <Route exact path="/" element={<Mainlanding />} />
@@ -24,7 +24,7 @@ function App() {
             <Route path="/products/:id" element={<ProductDetails />} />
           </Routes>
           <Footer />
-        </BrowserRouter>
+        </Router>
       </ShopContextProvider>
     </div>
   );

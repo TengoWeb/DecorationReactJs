@@ -21,7 +21,7 @@ export function NavbarDiscount() {
       <div className="discount">
         <div className="container navbar text-light align-items-center d-flex justify-between text-align-center">
           <div className=""></div>
-          <p>Use code FIRST50 for a 50% discount on your first order!</p>
+          <p>Use code FIRST50 for a 50% discount on your first order!!!!</p>
           <div className="cartlogin d-flex">
             <div className=''>
               <Link to='/cart'> <img src={cart} alt="/" />
