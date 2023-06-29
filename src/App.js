@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <ShopContextProvider>
-        <BrowserRouter basename="/DecorationReactJs">
+        <BrowserRouter>
           <NavbarDiscount />
           <Routes>
             <Route exact path="/" element={<Mainlanding />} />

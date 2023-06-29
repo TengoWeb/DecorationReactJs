@@ -35,11 +35,7 @@ export function NavbarDiscount() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container d-flex justify-content-between align-items-center">
           <div>
-          <Link to=""> {/* Instead of <Link to="/"> */}
-            <h1 className="navbar-brand">
-             <img src={logo} alt="" />
-            </h1>
-          </Link>
+          <Link to=""><h1 className="navbar-brand"><img src={logo} alt="" /></h1></Link>
           </div>
           <button
   className="navbar-toggler"
