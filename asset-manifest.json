@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/DecorationReactJs/static/css/main.7b4a92e5.css",
-    "main.js": "/DecorationReactJs/static/js/main.4fdef2db.js",
+    "main.js": "/DecorationReactJs/static/js/main.03ed06c4.js",
     "static/js/787.49ec3b2a.chunk.js": "/DecorationReactJs/static/js/787.49ec3b2a.chunk.js",
     "static/media/Hero Banner.png": "/DecorationReactJs/static/media/Hero Banner.e4ad19c670877a882719.png",
     "static/media/garden.png": "/DecorationReactJs/static/media/garden.20c59ebae528f37a9bfc.png",
@@ -40,11 +40,11 @@
     "static/media/prod4.png": "/DecorationReactJs/static/media/prod4.c6c6648b470a7cdb1666.png",
     "index.html": "/DecorationReactJs/index.html",
     "main.7b4a92e5.css.map": "/DecorationReactJs/static/css/main.7b4a92e5.css.map",
-    "main.4fdef2db.js.map": "/DecorationReactJs/static/js/main.4fdef2db.js.map",
+    "main.03ed06c4.js.map": "/DecorationReactJs/static/js/main.03ed06c4.js.map",
     "787.49ec3b2a.chunk.js.map": "/DecorationReactJs/static/js/787.49ec3b2a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b4a92e5.css",
-    "static/js/main.4fdef2db.js"
+    "static/js/main.03ed06c4.js"
   ]
 }
