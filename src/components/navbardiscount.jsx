@@ -35,7 +35,7 @@ export function NavbarDiscount() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary ">
         <div className="container d-flex justify-content-between align-items-center">
           <div>
-            <Link to={"/DecorationReactJs"}><h1 className="navbar-brand" href="/DecorationReactJs"><img src={logo} alt="/DecorationReactJs"/></h1></Link>
+            <Link to={"/"}><h1 className="navbar-brand" href="/DecorationReactJs"><img src={logo} alt="/"/></h1></Link>
           </div>
           <button
   className="navbar-toggler"
@@ -51,7 +51,7 @@ export function NavbarDiscount() {
           <div className="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Home</a>
+              <Link to={"/"}><a className="nav-link active" aria-current="page" href="/">Home</a></Link>
               </li>
               <li className="nav-item dropdown">
                 <a className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
